@@ -791,8 +791,8 @@
   "attributes": {
     "portalUrl": "https://baltimore.maps.arcgis.com",
     "isWebTier": false,
-    "clientId": "",
-    "title": "OEM Database Config v2",
+    "clientId": "3pRp9BFJJxX3XDIq",
+    "title": "OEM GIS Center Database Config",
     "description": "",
     "type": "Web Experience",
     "thumbnail": null
