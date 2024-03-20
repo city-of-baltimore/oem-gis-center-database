@@ -109,12 +109,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "11.6%",
-            "right": "12.0%",
-            "top": "5.8%",
-            "bottom": "37.1%",
+            "left": "11.8%",
+            "right": "11.8%",
+            "top": "7.1%",
+            "bottom": "41.4%",
             "width": "76.4%",
-            "height": "57.1%"
+            "height": "51.5%"
           },
           "widgetId": "widget_6",
           "setting": {
@@ -746,10 +746,12 @@
       "id": "widget_5"
     },
     "widget_6": {
-      "uri": "widgets/oem-database-config/",
+      "uri": "widgets/scenario-database-config/",
       "version": "1.11.0",
-      "label": "OEM Database Config",
+      "label": "Scenario Database Config",
       "config": {
+        "appId": "eS2vUdIZbHaVOrDz",
+        "googleAnalyticsId": "G-R80MPZYQVT",
         "templateTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/1",
         "layerTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/0",
         "categoryTableUrl": "https://services1.arcgis.com/UWYHeuuJISiGmgXx/arcgis/rest/services/OEM_Database_v2/FeatureServer/2",
@@ -807,5 +809,5 @@
       "page_0": []
     }
   ],
-  "timestamp": 1692340996774
+  "timestamp": 1710964263611
 }

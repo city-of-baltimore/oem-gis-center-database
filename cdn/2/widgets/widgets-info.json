@@ -7444,9 +7444,10 @@
     "group": 9
   },
   {
-    "name": "add-layers",
+    "name": "scenario-dashboard",
     "manifest": {
-      "name": "add-layers",
+      "name": "scenario-dashboard",
+      "label": "Scenario Dashboard",
       "type": "widget",
       "version": "1.11.0",
       "dependency": [
@@ -7454,7 +7455,7 @@
       ],
       "exbVersion": "1.11.0",
       "author": "Andrew Shaw",
-      "description": "Add preset groups of map layers",
+      "description": "Scenario dashboard widget that allows users to manage templates of preset layer groups",
       "copyright": "",
       "license": "",
       "properties": {},
@@ -7468,75 +7469,16 @@
     },
     "i18nLabel": {},
     "i18nDescription": {},
-    "uri": "widgets/add-layers/",
-    "icon": "widgets/add-layers/icon.png",
+    "uri": "widgets/scenario-dashboard/",
+    "icon": "widgets/scenario-dashboard/icon.png",
     "order": 700,
     "group": 7
   },
   {
-    "name": "add-layers-to-a-map",
+    "name": "scenario-database-config",
     "manifest": {
-      "name": "add-layers-to-a-map",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Your Name",
-      "description": "A hello world starter widget",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/add-layers-to-a-map/",
-    "icon": "widgets/add-layers-to-a-map/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "get-map-coordinates",
-    "manifest": {
-      "name": "get-map-coordinates",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Your Name",
-      "description": "A hello world starter widget",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/get-map-coordinates/",
-    "icon": "widgets/get-map-coordinates/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "layer-presets",
-    "manifest": {
-      "name": "layer-presets",
+      "name": "scenario-database-config",
+      "label": "Scenario Database Config",
       "type": "widget",
       "version": "1.11.0",
       "dependency": [
@@ -7544,7 +7486,7 @@
       ],
       "exbVersion": "1.11.0",
       "author": "Andrew Shaw",
-      "description": "Add and control preset groups of map layers",
+      "description": "Add layers, delete layers, or delete templates from Scenario database.",
       "copyright": "",
       "license": "",
       "properties": {},
@@ -7558,160 +7500,8 @@
     },
     "i18nLabel": {},
     "i18nDescription": {},
-    "uri": "widgets/layer-presets/",
-    "icon": "widgets/layer-presets/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "oem-dashboard",
-    "manifest": {
-      "name": "oem-dashboard",
-      "label": "OEM Dashboard",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Andrew Shaw",
-      "description": "OEM dashboard widget that allows users to manage templates of preset layer groups",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/oem-dashboard/",
-    "icon": "widgets/oem-dashboard/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "oem-database-config",
-    "manifest": {
-      "name": "oem-database-config",
-      "label": "OEM Database Config",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Andrew Shaw",
-      "description": "Add layers, delete layers, or delete templates from OEM database.",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/oem-database-config/",
-    "icon": "widgets/oem-database-config/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "oem-demo",
-    "manifest": {
-      "name": "oem-demo",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Andrew Shaw",
-      "description": "Add preset groups of map layers",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/oem-demo/",
-    "icon": "widgets/oem-demo/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "save-preset",
-    "manifest": {
-      "name": "save-preset",
-      "type": "widget",
-      "version": "1.11.0",
-      "dependency": [
-        "jimu-arcgis"
-      ],
-      "exbVersion": "1.11.0",
-      "author": "Andrew Shaw",
-      "description": "Add and control preset groups of map layers",
-      "copyright": "",
-      "license": "",
-      "properties": {},
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/save-preset/",
-    "icon": "widgets/save-preset/icon.png",
-    "order": 700,
-    "group": 7
-  },
-  {
-    "name": "simple",
-    "manifest": {
-      "name": "simple",
-      "label": "Simple",
-      "type": "widget",
-      "version": "1.12.0",
-      "exbVersion": "1.12.0",
-      "author": "Esri R&D Center Beijing",
-      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
-      "copyright": "",
-      "license": "http://www.apache.org/licenses/LICENSE-2.0",
-      "properties": {
-        "hasSettingPage": false
-      },
-      "translatedLocales": [
-        "en"
-      ],
-      "defaultSize": {
-        "width": 800,
-        "height": 500
-      }
-    },
-    "i18nLabel": {},
-    "i18nDescription": {},
-    "uri": "widgets/simple/",
-    "icon": "widgets/simple/icon.svg",
+    "uri": "widgets/scenario-database-config/",
+    "icon": "widgets/scenario-database-config/icon.png",
     "order": 700,
     "group": 7
   }
